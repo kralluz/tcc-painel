@@ -1,7 +1,7 @@
 // Fonte da verdade das peças do TCC.
 // Claude atualiza este arquivo conforme o trabalho avança.
 // status: "pendente" | "andamento" | "concluida"
-window.PECAS_ATUALIZADO = "2026-10-20";
+window.PECAS_ATUALIZADO = "2026-10-23";
 window.PECAS = [
 // ---------- Preparação ----------
 {id:"p1", grupo:"preparacao", codigo:"P1", titulo:"Modelo Word do IF adaptado", status:"concluida", xp:3, quem:"Claude", onde:"TCC-Relato-Experiencia.docx", detalhe:"Modelo oficial de Ceres com a estrutura do relato de experiência: seções 1 a 4, lista de siglas, anexos e apêndices."},
@@ -45,14 +45,14 @@ window.PECAS = [
 {id:"q1", grupo:"figuras", codigo:"Q1", titulo:"Quadro do cronograma", status:"andamento", xp:4, quem:"Claude", onde:"caderno, seção 2.5", detalhe:"Faltam: etapa de modelagem do banco (11 a 15/10), marco de encerramento (D5) e trocar \"Tabela\" por \"Quadro\"."},
 
 // ---------- Referencial ----------
-{id:"r1", grupo:"referencial", codigo:"R1", titulo:"Processo de desenvolvimento", status:"pendente", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Pressman, Sommerville: classificar o processo seguido. Sem fonte ainda."},
-{id:"r2", grupo:"referencial", codigo:"R2", titulo:"Engenharia de requisitos", status:"pendente", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Levantamento com cliente única, questionário, validação. Sem fonte ainda."},
-{id:"r3", grupo:"referencial", codigo:"R3", titulo:"Documentação no processo", status:"pendente", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Planejar por escrito antes de implementar. Sem fonte ainda."},
-{id:"r4", grupo:"referencial", codigo:"R4", titulo:"Decisões de arquitetura", status:"andamento", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Fowler (2018) verificado. Faltam fontes sobre valores monetários e integridade."},
-{id:"r5", grupo:"referencial", codigo:"R5", titulo:"Verificação e testes", status:"pendente", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Sem fonte ainda."},
-{id:"r6", grupo:"referencial", codigo:"R6", titulo:"Organização do trabalho em Git", status:"andamento", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Bacchelli e Bird (2013) verificado. Accelerate a confirmar."},
-{id:"r7", grupo:"referencial", codigo:"R7", titulo:"Desenvolvimento assistido por IA", status:"andamento", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Quatro estudos encontrados, todos a confirmar na fonte."},
-{id:"r8", grupo:"referencial", codigo:"R8", titulo:"Metodologia do relato", status:"andamento", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Estrutura da UFG em mãos. Yin, Gil e Martins a confirmar."},
+{id:"r1", grupo:"referencial", codigo:"R1", titulo:"Processo de desenvolvimento", status:"concluida", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Pressman e Maxim (2021) e o Manifesto Ágil (2001) confirmados. Sommerville sem tradução brasileira localizada — citar em inglês ou buscar edição anterior."},
+{id:"r2", grupo:"referencial", codigo:"R2", titulo:"Engenharia de requisitos", status:"andamento", xp:6, quem:"Claude", onde:"referencial/00-PLANO-REFERENCIAL.md", detalhe:"Só uma dissertação de mestrado encontrada (não é artigo revisado por pares). Faltam fontes sobre requisitos de domínio estrangeiro e cliente única."},
+{id:"r3", grupo:"referencial", codigo:"R3", titulo:"Documentação no processo", status:"concluida", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Parnas e Clements (1986) e Nygard (2011, ADR) confirmados."},
+{id:"r4", grupo:"referencial", codigo:"R4", titulo:"Decisões de arquitetura", status:"concluida", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Fowler (2018) e Avgeriou et al. (2016, Dagstuhl) confirmados."},
+{id:"r5", grupo:"referencial", codigo:"R5", titulo:"Verificação e testes", status:"concluida", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Beck (2003, TDD) e Fowler (2012, pirâmide de testes) confirmados."},
+{id:"r6", grupo:"referencial", codigo:"R6", titulo:"Organização do trabalho em Git", status:"concluida", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Bacchelli e Bird (2013) confirmado e já citado na seção 3. Accelerate confirmado, sem página exata do achado."},
+{id:"r7", grupo:"referencial", codigo:"R7", titulo:"Desenvolvimento assistido por IA", status:"andamento", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Peng et al. (2023) confirmado e já citado; Vaithilingam et al. (2022) com DOI a confirmar. Faltam 2 estudos (NAV IT e ICER 2025), não pesquisados ainda."},
+{id:"r8", grupo:"referencial", codigo:"R8", titulo:"Metodologia do relato", status:"concluida", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Yin (2001) e Martins (2008) confirmados. Gil com ano a conferir no exemplar físico (2008 ou 2011)."},
 
 // ---------- Apêndices ----------
 {id:"a1", grupo:"apendices", codigo:"A1", titulo:"Planejamento do módulo de funcionários", status:"pendente", xp:4, quem:"Claude", onde:"projeto, docs/archive", detalhe:"Trecho, anonimizado (sem nome da cliente nem do sistema)."},
@@ -65,6 +65,6 @@ window.PECAS = [
 {id:"d2", grupo:"decisoes", codigo:"D2", titulo:"Limite de páginas", status:"pendente", xp:2, quem:"Prof. Lucas", onde:"—", detalhe:"Define o tamanho de cada seção."},
 {id:"d3", grupo:"decisoes", codigo:"D3", titulo:"Primeira ou terceira pessoa", status:"pendente", xp:2, quem:"Prof. Lucas", onde:"—", detalhe:"Decidir antes de começar a escrever."},
 {id:"d4", grupo:"decisoes", codigo:"D4", titulo:"Cronograma do TCC ou da experiência?", status:"pendente", xp:2, quem:"Prof. Lucas", onde:"—", detalhe:"Podem ser exigidos os dois."},
-{id:"d5", grupo:"decisoes", codigo:"D5", titulo:"Módulo de funcionários foi para produção?", status:"pendente", xp:2, quem:"Você", onde:"—", detalhe:"Define o marco de encerramento do cronograma."},
+{id:"d5", grupo:"decisoes", codigo:"D5", titulo:"Módulo de funcionários foi para produção", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Confirmado: foi para produção. Considerado pouco relevante para o relato — só fecha o cronograma, sem precisar de destaque."},
 {id:"d6", grupo:"decisoes", codigo:"D6", titulo:"Quadro × tabela no manual de Ceres", status:"pendente", xp:2, quem:"Claude", onde:"normas/Manual-de-Normas-redacao-TC-IF-Ceres.pdf", detalhe:"Conferir como o manual trata quadros e se a lista de tabelas é obrigatória."}
 ];
