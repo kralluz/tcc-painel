@@ -12,7 +12,7 @@ window.PECAS = [
 
 // ---------- Pré-textuais ----------
 {id:"t01", grupo:"pretextual", codigo:"Capa", titulo:"Capa", status:"concluida", xp:2, quem:"Claude", onde:"TCC-Relato-Experiencia.docx", detalhe:"Título aplicado (D1): \"O processo de desenvolvimento de software sob encomenda: um relato de experiência\". Instituição, autor e local já constavam."},
-{id:"t02", grupo:"pretextual", codigo:"Rosto", titulo:"Folha de rosto", status:"andamento", xp:2, quem:"Claude", onde:"TCC-Relato-Experiencia.docx", detalhe:"Título já aplicado. Falta: Bacharelado ou Licenciatura, o ano certo, e o nome completo do orientador."},
+{id:"t02", grupo:"pretextual", codigo:"Rosto", titulo:"Folha de rosto", status:"concluida", xp:2, quem:"Claude", onde:"TCC-Relato-Experiencia.docx", detalhe:"Título, curso (Bacharelado em Sistemas de Informação), ano (2026) e orientador (Lucas José de Faria) aplicados."},
 {id:"t03", grupo:"pretextual", codigo:"Ficha", titulo:"Ficha catalográfica", status:"pendente", xp:2, quem:"Você", onde:"normas/Tutorial_ficha_catalografica.pdf", detalhe:"Só na versão final, depois da defesa, seguindo o tutorial da biblioteca."},
 {id:"t04", grupo:"pretextual", codigo:"Aprov.", titulo:"Folha de aprovação e ata", status:"pendente", xp:2, quem:"Você", onde:"TCC-Relato-Experiencia.docx", detalhe:"Só depois da defesa: ata assinada e termo de autorização (TCAE)."},
 {id:"t05", grupo:"pretextual", codigo:"Agrad.", titulo:"Agradecimentos", status:"pendente", xp:2, editavel:true, meta:80, checklist:["Não citei a cliente pelo nome"], quem:"Você", onde:"caderno, parte Agradecimentos", detalhe:"Opcional e livre. Não citar a cliente pelo nome."},
@@ -62,8 +62,8 @@ window.PECAS = [
 
 // ---------- Decisões ----------
 {id:"d1", grupo:"decisoes", codigo:"D1", titulo:"Título definitivo", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Decidido: \"O processo de desenvolvimento de software sob encomenda: um relato de experiência\". Aplicado na capa e na folha de rosto."},
-{id:"d7", grupo:"decisoes", codigo:"D7", titulo:"Curso: Bacharelado ou Licenciatura?", status:"pendente", xp:2, quem:"Você", onde:"TCC-Relato-Experiencia.docx", detalhe:"Trava a folha de rosto. Hoje só consta \"Sistemas de Informação\", sem a modalidade."},
-{id:"d8", grupo:"decisoes", codigo:"D8", titulo:"Ano do trabalho e nome do orientador", status:"pendente", xp:2, quem:"Você", onde:"TCC-Relato-Experiencia.docx", detalhe:"Trava a folha de rosto: confirmar se é 2026, e o nome completo do Prof. Lucas (hoje só o primeiro nome)."},
+{id:"d7", grupo:"decisoes", codigo:"D7", titulo:"Curso: Bacharelado ou Licenciatura?", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Bacharelado em Sistemas de Informação."},
+{id:"d8", grupo:"decisoes", codigo:"D8", titulo:"Ano do trabalho e nome do orientador", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"2026; orientador Lucas José de Faria."},
 {id:"d2", grupo:"decisoes", codigo:"D2", titulo:"Limite de páginas", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Sem limite definido pelo prof. Lucas, mas o autor quer um trabalho enxuto. Metas de palavras reduzidas de ~6.970 para ~4.630 (cerca de 17-18 páginas de corpo de texto)."},
 {id:"d3", grupo:"decisoes", codigo:"D3", titulo:"Primeira ou terceira pessoa", status:"pendente", xp:2, quem:"Prof. Lucas", onde:"—", detalhe:"Decidir antes de começar a escrever."},
 {id:"d4", grupo:"decisoes", codigo:"D4", titulo:"Cronograma do TCC ou da experiência?", status:"pendente", xp:2, quem:"Prof. Lucas", onde:"—", detalhe:"Podem ser exigidos os dois."},
