@@ -1,7 +1,7 @@
 // Fonte da verdade das peças do TCC.
 // Claude atualiza este arquivo conforme o trabalho avança.
 // status: "pendente" | "andamento" | "concluida"
-window.PECAS_ATUALIZADO = "2026-10-23";
+window.PECAS_ATUALIZADO = "2026-10-23 (2)";
 window.PECAS = [
 // ---------- Preparação ----------
 {id:"p1", grupo:"preparacao", codigo:"P1", titulo:"Modelo Word do IF adaptado", status:"concluida", xp:3, quem:"Claude", onde:"TCC-Relato-Experiencia.docx", detalhe:"Modelo oficial de Ceres com a estrutura do relato de experiência: seções 1 a 4, lista de siglas, anexos e apêndices."},
@@ -55,10 +55,8 @@ window.PECAS = [
 {id:"r8", grupo:"referencial", codigo:"R8", titulo:"Metodologia do relato", status:"concluida", xp:6, quem:"Claude", onde:"referencial/referencias.bib", detalhe:"Yin (2001) e Martins (2008) confirmados. Gil com ano a conferir no exemplar físico (2008 ou 2011)."},
 
 // ---------- Apêndices ----------
-{id:"a1", grupo:"apendices", codigo:"A1", titulo:"Planejamento do módulo de funcionários", status:"concluida", xp:4, quem:"Claude", onde:"apendices/A1-planejamento-modulo-funcionarios.md", detalhe:"Trecho anonimizado: visão geral, requisitos funcionais e estrutura do contracheque. Nome da cliente e do sistema removidos."},
-{id:"a2", grupo:"apendices", codigo:"A2", titulo:"Documentação da API", status:"concluida", xp:4, quem:"Claude", onde:"apendices/A2-documentacao-api.md", detalhe:"Trecho anonimizado: visão geral e exemplo de endpoint de autenticação."},
-{id:"a3", grupo:"apendices", codigo:"A3", titulo:"Diagrama do banco de dados", status:"concluida", xp:4, quem:"Claude", onde:"apendices/A3-diagrama-banco-dados.md", detalhe:"Diagrama entidade-relacionamento (Mermaid) das 5 tabelas do módulo de funcionários, a partir do schema Prisma real. Sem dados de funcionário."},
-{id:"a4", grupo:"apendices", codigo:"A4", titulo:"Histórico de commits resumido", status:"concluida", xp:4, quem:"Claude", onde:"apendices/A4-historico-commits.md", detalhe:"Outubro a dezembro de 2025, agrupado pelas 4 fases da Figura 1, anonimizado (33 commits API, 65 commits Web)."},
+{id:"a1", grupo:"apendices", codigo:"Ap.A", titulo:"Planejamento do módulo de funcionários", status:"concluida", xp:4, quem:"Claude", onde:"apendices/A1-planejamento-modulo-funcionarios.md", detalhe:"Trecho anonimizado: visão geral, requisitos funcionais e estrutura do contracheque. Nome da cliente e do sistema removidos."},
+{id:"a4", grupo:"apendices", codigo:"Ap.B", titulo:"Histórico de commits resumido", status:"concluida", xp:4, quem:"Claude", onde:"apendices/A4-historico-commits.md", detalhe:"Outubro a dezembro de 2025, agrupado pelas 4 fases da Figura 1, anonimizado (33 commits API, 65 commits Web)."},
 
 // ---------- Decisões ----------
 {id:"d1", grupo:"decisoes", codigo:"D1", titulo:"Título definitivo", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Decidido: \"O processo de desenvolvimento de software sob encomenda: um relato de experiência\". Aplicado na capa e na folha de rosto."},
@@ -66,7 +64,7 @@ window.PECAS = [
 {id:"d8", grupo:"decisoes", codigo:"D8", titulo:"Ano do trabalho e nome do orientador", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"2026; orientador Lucas José de Faria."},
 {id:"d2", grupo:"decisoes", codigo:"D2", titulo:"Limite de páginas", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Sem limite definido pelo prof. Lucas, mas o autor quer um trabalho enxuto. Metas de palavras reduzidas de ~6.970 para ~4.630 (cerca de 17-18 páginas de corpo de texto)."},
 {id:"d3", grupo:"decisoes", codigo:"D3", titulo:"Primeira ou terceira pessoa", status:"pendente", xp:2, quem:"Prof. Lucas", onde:"—", detalhe:"Decidir antes de começar a escrever."},
-{id:"d4", grupo:"decisoes", codigo:"D4", titulo:"Cronograma do TCC ou da experiência?", status:"pendente", xp:2, quem:"Prof. Lucas", onde:"—", detalhe:"Podem ser exigidos os dois."},
+{id:"d4", grupo:"decisoes", codigo:"D4", titulo:"Cronograma do projeto, até o encerramento", status:"concluida", xp:2, quem:"Prof. Lucas", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Resposta do prof.: cronograma do projeto, do início ao fim, incluindo acompanhamento pós-implantação. Aplicado: 07/10/2025 a 14/03/2026, com a fase de acompanhamento."},
 {id:"d5", grupo:"decisoes", codigo:"D5", titulo:"Módulo de funcionários foi para produção", status:"concluida", xp:2, quem:"Você", onde:"levantamento/RESPOSTAS-QUESTIONARIO.md", detalhe:"Confirmado: foi para produção. Considerado pouco relevante para o relato — só fecha o cronograma, sem precisar de destaque."},
 {id:"d6", grupo:"decisoes", codigo:"D6", titulo:"Quadro × tabela no manual de Ceres", status:"concluida", xp:2, quem:"Claude", onde:"normas/Manual-de-Normas-redacao-TC-IF-Ceres.pdf (itens 2.1.10, 2.2.7, 3.9)", detalhe:"Cronograma é quadro (texto, linhas verticais), confirmado. Quadros entram na Lista de Ilustrações. O manual numera quadros como \"Figura N\", numa série única — não existe série \"Quadro N\" nesta instituição. Lista de Tabelas removida do trabalho."}
 ];
